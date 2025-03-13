@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Poller+One&display=swap");
+
+
+.quiz{
+    background-color: #cc2b31;
+    color: white;
+    border: none;
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.answer {
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
