@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poller+One&display=swap");
-
+body{
+    background-color: #0253a4;
+}
 
 .quiz{
+
     background-color: #cc2b31;
     color: white;
     border: none;
@@ -12,9 +15,32 @@
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+    margin: 15px;
+
 }
 .answer {
     font-family: "Holtwood One SC", serif;
     font-weight: 400;
     font-style: normal;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
+.question{
+    position: relative;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: -40px;
+    text-align: center;
+    z-index: 2;
+}
+.logo {
+    display: flex;
+    align-self: center;
 }

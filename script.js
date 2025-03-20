@@ -19,7 +19,7 @@ answer.innerHTML = "You like players smaller players (Guards) that are aggressiv
 }else if (size === "big" && personality === "aggressive") {
     answer.innerHTML = "You like the bigs (Centers, Fowards) that are aggressive and love to talk trash like Kevin Garnett, Larry Bird, KD";
 } else {
-    answer.innerHTML = "Either your size or personality was wrong. Remember choose between small or big for size. For Personality choose between calm or aggressive."
+    answer.innerHTML = "Either your size or personality was wrong. Remember choose between small or big for size. For Personality choose between calm or aggressive. (Make sure to leave no spaces)"
 }
 };
 
