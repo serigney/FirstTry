@@ -15,8 +15,18 @@ body{
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
-    margin: 15px;
+    margin: 10px;
 
+}
+.size{
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 15px;
+}
+.personality{
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 25px;
 }
 .answer {
     font-family: "Holtwood One SC", serif;
@@ -32,6 +42,13 @@ h1 {
     color: white;
     text-align: center;
 }
+p {
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+}
 .question{
     position: relative;
     border-radius: 8px;
@@ -41,6 +58,12 @@ h1 {
     z-index: 2;
 }
 .logo {
-    display: flex;
-    align-self: center;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.Ant {
+    display: block;
+    margin: auto;
+   
 }
