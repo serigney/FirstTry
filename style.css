@@ -65,20 +65,37 @@ p {
 .Ant {
     display: block;
     margin: auto;
+    align-self: center;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
    
 }
 .Shai {
     display: block;
     margin: auto;
-   
+    align-self: center;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
 .Jokic {
     display: block;
     margin: auto;
-   
+    align-self: center;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
 .Kevin {
     display: block;
     margin: auto;
-   
+    align-self: center;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+.img {
+    display: grid;
+    height: 100%;
 }
